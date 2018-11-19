@@ -1,0 +1,22 @@
+White
+Grey
+Black
+Red
+Orange
+Yellow
+Green
+Blue
+Purple
+
+Brown
+Dark Red
+Dark Blue
+Light Blue
+Light Pink
+Hot Pink
+Light Yellow
+Lavender
+Tan
+Dark Grey
+Light Grey
+Lime Green

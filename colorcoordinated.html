@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <title>Style</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      * {
+          box-sizing: border-box;
+      }
+      body {
+          font-family: Arial, Helvetica, sans-serif;
+          margin: 0;
+          padding: 0;
+          height: 100%;
+          width: 100%;
+      }
+      /* Style the header */
+      header {
+          background-color: #FFB6C1;
+          margin: 0px;
+          padding: 0px;
+          text-align: center;
+          font-size: 35px;
+          color: white;
+      }
+span.b {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+    border: 10px #11335A;
+    background-color: white;
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+    </style>
+  </head>
+
+  <header>
+    <h2> <p style="padding-bottom: 0px; "> COLOR COORDINATED </p> <p style="font-size: 25px; font-family:cursive; padding-top: 0px;">select colors in style </p></h2>
+  </header>
+
+  <body onload="main()" style="background-color:white;">
+
+    <!-- Instructions -->
+    <p style="text-align:center;">Instructions: Select a color you would like to find colors that coordinate. The colors are listed in alphabetical order. Click the sumbit button to see your results.</p>
+
+    <form style="text-align: center;">
+      <select name="selector">
+        <option value="ChooseAColor">Select A Color To Compare Here</option>
+        <option value="Black">Black</option>
+        <option value="Blue">Blue</option>
+        <option value="Green">Green</option>
+        <option value="Grey">Grey</option>
+        <option value="Orange">Orange</option>
+        <option value="Purple">Purple</option>
+        <option value="Red">Red</option>
+        <option value="White">White</option>
+        <option value="Yellow">Yellow</option>
+      </select>
+      <center>
+        <button type="button" onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'">
+          Submit
+        </button>
+      </center>
+    </form>
+  </body>
+
+<!--
+  <footer>
+    <p>
+    <label> More information about the authors here! </label>
+      <a href="https://en.wikipedia.org/wiki/Isaac_Asimov">Isaac Asimov</a>
+      <a href="https://en.wikipedia.org/wiki/Jane_Austen">Jane Austen</a>
+      <a href="https://en.wikipedia.org/wiki/Agatha_Christie">Agatha Christie</a>
+      <a href="https://en.wikipedia.org/wiki/Arthur_C._Clarke">Arthur C. Clark</a>
+      <a href="https://en.wikipedia.org/wiki/F._Scott_Fitzgerald">F. Scott Fitzgerald</a>
+      <a href="https://en.wikipedia.org/wiki/Brothers_Grimm">The Brothers Grimm</a>
+      <a href="https://en.wikipedia.org/wiki/Ernest_Hemingway">Ernest Hemingway</a>
+      <a href="https://en.wikipedia.org/wiki/C._S._Lewis">C.S. Lewis</a>
+      <a href="https://en.wikipedia.org/wiki/H._P._Lovecraft">Howard Lovecraft</a>
+      <a href="https://en.wikipedia.org/wiki/Edgar_Allan_Poe">Edgar Allan Poe</a>
+      <a href="https://en.wikipedia.org/wiki/Mary_Shelley">Mary Shelley</a>
+      <a href="https://en.wikipedia.org/wiki/John_Steinbeck">John Steinbeck</a>
+      <a href="https://en.wikipedia.org/wiki/Mark_Twain">Mark Twain</a>
+    </p>
+  </footer>
+  -->
+</html>
